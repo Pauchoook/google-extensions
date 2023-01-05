@@ -222,11 +222,11 @@ span {
   font-size: 10px;
   line-height: 12px;
   text-transform: uppercase;
+  border-radius: 4px;
   margin-left: auto;
   transition: color .2s ease, background-color .2s ease;
 }
 .card__btn:hover {
   color: white;
   background-color: var(--primary-black);
-  border-radius: 4px;
 }
