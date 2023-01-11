@@ -1,7 +1,6 @@
 let url = 'http://localhost:3000/results';
 const contentBody = document.querySelector('.content__body');
 const contenResult = document.querySelector('.content__result');
-const search = document.querySelector('.header__search');
 
 async function fetchData(url) {
   try {
@@ -54,18 +53,5 @@ function resultFetch(string) {
   contentBody.innerHTML = '';
   contentBody.insertAdjacentHTML('beforeend', string);
 }
-
-search.addEventListener('input', (e) => {
-  const value = e.target.value;
-  const searchUrl = url + `?name_like=${value}`
-
-  setTimeout(() => {
-    if (value) {
-      fetchData(searchUrl);
-    } else {
-      fetchData(url);
-    }
-  }, 800);
-});
 
 fetchData(url);

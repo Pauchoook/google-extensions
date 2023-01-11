@@ -34,12 +34,11 @@ a {
 }
 
 .app {
-  /* border-radius: 15px; */
   background-color: white;
   max-height: 470px;
   overflow: hidden;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  max-width: 230px;
+  max-width: 390px;
 }
 
 .header {
@@ -160,6 +159,7 @@ a {
   margin-bottom: 10px;
 }
 .card__preview {
+  margin-right: 15px;
 }
 .card__preview-img {
   position: relative;
@@ -182,16 +182,11 @@ a {
 }
 .card__preview-content {
   font-weight: 600;
-  font-size: 8px;
-  line-height: 10px;
-}
-.card__info {
-  max-width: 105px;
+  font-size: 14px;
 }
 .card__title {
   font-weight: 600;
-  font-size: 12px;
-  line-height: 15px;
+  font-size: 16px;
   margin-bottom: 13px;
 }
 .card__list {
@@ -199,15 +194,15 @@ a {
 }
 .card__item {
   font-weight: 400;
-  font-size: 8px;
+  font-size: 14px;
   line-height: 10px;
   text-align: right;
+  margin-bottom: 5px;
 }
 .card__item span {
   display: inline;
   font-weight: 600;
-  font-size: 12px;
-  line-height: 15px;
+  font-size: 16px;
 }
 .card__btn {
   cursor: pointer;
@@ -215,8 +210,7 @@ a {
   display: block;
   background-color: var(--gray);
   font-weight: 600;
-  font-size: 10px;
-  line-height: 12px;
+  font-size: 14px;
   width: fit-content;
   text-transform: uppercase;
   border-radius: 4px;
